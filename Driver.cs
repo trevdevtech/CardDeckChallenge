@@ -10,15 +10,15 @@ namespace CSharpChallenge
             // Creating the card deck instance.
             CardDeck cardDeck = new CardDeck();
 
-            // Peeking at the top of the top od the deck before the shuffle.
+            // Peeking at the top of the deck before the shuffle.
             Console.WriteLine(cardDeck.peekTopDeck().toString());
 
             cardDeck.shuffle();
 
-            // Peeking at the top of the top od the deck after the shuffle.
+            // Peeking at the top of the deck after the shuffle.
             Console.WriteLine(cardDeck.peekTopDeck().toString());
 
-            // Dealing every card in the deck and the attempting to over-deal.
+            // Dealing every card in the deck and then attempting to over-deal.
             for (int i = 0; i < 53; i++)
             {
 
